@@ -1,6 +1,6 @@
 /* javascript */
 function validate(){
-  //Grab the user's input and store in variables
+  //Grab the user's input and store in variables --
   var userEntered = document.getElementById("user").value;
   var passEntered = document.getElementById("pass").value;
   var space =userEntered.indexOf(" ");
