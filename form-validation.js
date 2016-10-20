@@ -46,7 +46,7 @@ function validatePassword()
     }
     else
     {
-      //Show message that there is an error with the password...
+      //Show message that there is an error with the password....
       document.getElementById("passwordError").innerHTML="Bad password.";
       document.getElementById("passwordError").classList.remove("hidden-message");
       document.getElementById("passwordError").classList.add("shown-message");
